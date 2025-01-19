@@ -50,11 +50,11 @@ class TaskProgressCard extends StatelessWidget {
                 children: [
                   Text(cardTitle,
                       style: GoogleFonts.lato(
-                          fontWeight: FontWeight.bold, fontSize: 22)),
+                          fontWeight: FontWeight.bold, fontSize: 19)),
                   AppSpaces.verticalSpace10,
                   Text('$rating is completed',
                       style: GoogleFonts.lato(
-                          fontWeight: FontWeight.w500, fontSize: 16)),
+                          fontWeight: FontWeight.w500, fontSize: 12)),
                   SizedBox(
                     height: 10,
                   ),
